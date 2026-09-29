@@ -1,0 +1,44 @@
+<svg width="720" height="220" viewBox="0 0 720 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerBg" x1="40" y1="20" x2="680" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#122E4F"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F6D365"/>
+      <stop offset="1" stop-color="#E6A800"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#08131F" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+
+  <rect width="720" height="220" rx="28" fill="url(#headerBg)"/>
+
+  <g filter="url(#shadow)" transform="translate(18 18)">
+    <circle cx="92" cy="92" r="82" fill="#F3F5F7" stroke="#0B1F3A" stroke-width="8"/>
+    <circle cx="92" cy="92" r="68" fill="#F3F5F7" stroke="#0B1F3A" stroke-width="3"/>
+
+    <path d="M92 26L110 52L92 70L74 52L92 26Z" fill="#0B1F3A"/>
+    <path d="M92 46L116 66L108 96L92 110L76 96L68 66L92 46Z" fill="#0B1F3A" opacity="0.95"/>
+    <path d="M92 70L117 96L104 124L92 132L80 124L67 96L92 70Z" fill="#0B1F3A" opacity="0.9"/>
+    <path d="M49 62L69 94L49 118L31 94L49 62Z" fill="#0B1F3A" opacity="0.9"/>
+    <path d="M135 62L115 94L135 118L153 94L135 62Z" fill="#0B1F3A" opacity="0.9"/>
+    <path d="M56 124L78 110L92 132L76 150L56 124Z" fill="#0B1F3A" opacity="0.8"/>
+    <path d="M128 124L106 110L92 132L108 150L128 124Z" fill="#0B1F3A" opacity="0.8"/>
+
+    <path d="M92 86L102 98L92 110L82 98L92 86Z" fill="#F7D875"/>
+    <path d="M92 86L104 82L110 92L102 98L92 86Z" fill="#E9C14A"/>
+    <path d="M92 86L80 82L74 92L82 98L92 86Z" fill="#E9C14A"/>
+    <path d="M79 101L82 98L92 110L84 113L79 101Z" fill="#E9C14A"/>
+    <path d="M105 101L102 98L92 110L100 113L105 101Z" fill="#E9C14A"/>
+
+    <circle cx="92" cy="92" r="2.7" fill="#E9C14A"/>
+  </g>
+
+  <g transform="translate(202 40)">
+    <text x="0" y="80" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="900" letter-spacing="3" fill="url(#gold)">SKF</text>
+    <text x="4" y="128" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="7" fill="#D7E3F4" opacity="0.86">SPORT • FITNESS • PERFORMANCE</text>
+    <path d="M0 148H358" stroke="#DAB84F" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+  </g>
+</svg>
